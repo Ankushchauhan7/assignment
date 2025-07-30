@@ -1,1 +1,11 @@
-@import "tailwindcss";
+/* App.css - Additional theme-specific styles */
+
+/* Theme transition animation */
+.app-container {
+  transition: var(--animation-transition);
+}
+
+/* Ensure smooth theme transitions */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
